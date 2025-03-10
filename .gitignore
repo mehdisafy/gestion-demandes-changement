@@ -1,0 +1,26 @@
+# Ignore Node.js dependencies folder
+node_modules/
+
+# Ignore environment variables (if you use a .env file)
+.env
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore build or dist folders (if applicable)
+/dist/
+/build/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore uploaded files (if applicable)
+/uploads/
