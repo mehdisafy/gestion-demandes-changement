@@ -1,0 +1,49 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des User Stories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gestion des User Stories</h1>
+
+  <!-- Formulaire de soumission -->
+  <form id="userStoryForm">
+    <label for="title">Titre:</label>
+    <input type="text" id="title" name="title" required><br>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea><br>
+
+    <label for="priority">Priorité:</label>
+    <select id="priority" name="priority">
+      <option value="Haute">Haute</option>
+      <option value="Moyenne">Moyenne</option>
+      <option value="Basse">Basse</option>
+    </select><br>
+
+    <button type="submit">Soumettre</button>
+  </form>
+
+  <!-- Tableau de bord des user stories -->
+  <h2>Tableau de Bord</h2>
+  <table id="userStoriesTable">
+    <thead>
+      <tr>
+        <th>Titre</th>
+        <th>Description</th>
+        <th>Priorité</th>
+        <th>Statut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Les données seront ajoutées ici dynamiquement -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

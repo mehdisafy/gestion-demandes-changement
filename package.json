@@ -9,7 +9,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/votre-nom-utilisateur/project-name.git"
+      "url": "https://github.com/mehdisafy/gestion-demandes-changement.git"
     },
     "keywords": [
       "nodejs",
@@ -18,7 +18,7 @@
       "agile",
       "cloud-native"
     ],
-    "author": "Votre Nom",
+    "author": "mehdisafy",
     "license": "MIT",
     "dependencies": {
       "cors": "^2.8.5",
